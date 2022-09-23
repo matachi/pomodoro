@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export && next-export-optimize-images"
+    "export": "next build && next export && next-export-optimize-images && rm -r docs && mv out docs"
   },
   "dependencies": {
     "@types/eslint": "^8.4.6",
