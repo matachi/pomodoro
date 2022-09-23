@@ -6,7 +6,7 @@ const nextConfig = withExportImages({
   sassOptions: {
     includePaths: [path.join(__dirname, 'node_modules/foundation-sites/scss')]
   },
-  basePath: '/docs',
+  basePath: '/pomodoro',
 })
 
 module.exports = nextConfig
