@@ -1,7 +1,28 @@
 # Pomodoro timer React Next.js app
 
-This is a React Next.js project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+built with React, Next.js, TypeScript and Foundation.
+
+Try the app:
+
+* <https://matachi.github.io/pomodoro/>
+
+It has the following features:
+
+* Start new pomodoro.
+* Start new break.
+* Pause & resume.
+* See timer of the current pomodoro/break.
+* See table of previous pomodoros/breaks.
+* Clear pomodoros/breaks from the table.
+* Show browser notification when pomodoro/break has reached its end.
+* Play notification sound when pomodoro/break has reached its end.
+* Change pomodoro length (default 25 min).
+* Change break length (default 5 min).
+* Settings and pomodoros/breaks are automatically saved in the browser's local
+  storage. (Refresh the page and the timer will continue.)
+
+## Dependencies
 
 It uses the following libraries:
 
